@@ -115,7 +115,6 @@ body {
 	transition: .5s ease-in-out;
 }
 .grid-item2 {
-  background-color: none;
   padding: 5px;
 }
 .grid-item:hover {
@@ -123,7 +122,6 @@ body {
 	transition: .5s ease-in-out;
 }
 .grid-item-e {
-    spadding: 20%;
     font-size: 30px;
     text-align: center;
 	color: white;
@@ -166,16 +164,16 @@ body {
 a {
 	transition: text-shadow .2s ease-in-out;
 }
-#mainlink:link {
+.mainlink:link {
   color: white;
   font: bold;
   text-decoration: none;
 }
-#mainlink:visited {
+.mainlink:visited {
   color: white;
   text-decoration: none;
 }
-#mainlink:hover {
+.mainlink:hover {
   text-shadow: 0px 8px 4px #b5e0ff;
   text-decoration: none;
 }
@@ -240,25 +238,6 @@ a {
   height: 150px;
   font-family: monospace;
 }
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
 /* The Close Button */
 .close {
   position: absolute;
